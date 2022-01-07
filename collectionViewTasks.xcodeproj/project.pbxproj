@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A71316842786DE5900274A11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A71316832786DE5900274A11 /* AppDelegate.m */; };
 		A71316872786DE5900274A11 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A71316862786DE5900274A11 /* SceneDelegate.m */; };
-		A713168A2786DE5900274A11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71316892786DE5900274A11 /* ViewController.m */; };
 		A713168D2786DE5900274A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A713168B2786DE5900274A11 /* Main.storyboard */; };
 		A713168F2786DE5D00274A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A713168E2786DE5D00274A11 /* Assets.xcassets */; };
 		A71316922786DE5D00274A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71316902786DE5D00274A11 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,11 @@
 		A713169F2786DE5D00274A11 /* collectionViewTasksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A713169E2786DE5D00274A11 /* collectionViewTasksTests.m */; };
 		A71316A92786DE5D00274A11 /* collectionViewTasksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A71316A82786DE5D00274A11 /* collectionViewTasksUITests.m */; };
 		A71316AB2786DE5D00274A11 /* collectionViewTasksUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A71316AA2786DE5D00274A11 /* collectionViewTasksUITestsLaunchTests.m */; };
+		A71316BA2786DF4000274A11 /* tableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A71316B92786DF4000274A11 /* tableVC.m */; };
+		A71316D127880E1900274A11 /* tblVwCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A71316CF27880E1900274A11 /* tblVwCell.m */; };
+		A71316D227880E1900274A11 /* tblVwCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71316D027880E1900274A11 /* tblVwCell.xib */; };
+		A71316D927880E4E00274A11 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A71316D727880E4E00274A11 /* CollectionViewCell.m */; };
+		A71316DA27880E4E00274A11 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71316D827880E4E00274A11 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +46,6 @@
 		A71316832786DE5900274A11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A71316852786DE5900274A11 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		A71316862786DE5900274A11 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		A71316882786DE5900274A11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A71316892786DE5900274A11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A713168C2786DE5900274A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A713168E2786DE5D00274A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A71316912786DE5D00274A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 		A71316A42786DE5D00274A11 /* collectionViewTasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionViewTasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71316A82786DE5D00274A11 /* collectionViewTasksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectionViewTasksUITests.m; sourceTree = "<group>"; };
 		A71316AA2786DE5D00274A11 /* collectionViewTasksUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectionViewTasksUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A71316B82786DF4000274A11 /* tableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tableVC.h; sourceTree = "<group>"; };
+		A71316B92786DF4000274A11 /* tableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableVC.m; sourceTree = "<group>"; };
+		A71316CE27880E1900274A11 /* tblVwCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tblVwCell.h; sourceTree = "<group>"; };
+		A71316CF27880E1900274A11 /* tblVwCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tblVwCell.m; sourceTree = "<group>"; };
+		A71316D027880E1900274A11 /* tblVwCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tblVwCell.xib; sourceTree = "<group>"; };
+		A71316D627880E4E00274A11 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		A71316D727880E4E00274A11 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		A71316D827880E4E00274A11 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +118,19 @@
 				A71316832786DE5900274A11 /* AppDelegate.m */,
 				A71316852786DE5900274A11 /* SceneDelegate.h */,
 				A71316862786DE5900274A11 /* SceneDelegate.m */,
-				A71316882786DE5900274A11 /* ViewController.h */,
-				A71316892786DE5900274A11 /* ViewController.m */,
+				A71316B82786DF4000274A11 /* tableVC.h */,
+				A71316B92786DF4000274A11 /* tableVC.m */,
 				A713168B2786DE5900274A11 /* Main.storyboard */,
 				A713168E2786DE5D00274A11 /* Assets.xcassets */,
 				A71316902786DE5D00274A11 /* LaunchScreen.storyboard */,
 				A71316932786DE5D00274A11 /* Info.plist */,
 				A71316942786DE5D00274A11 /* main.m */,
+				A71316CE27880E1900274A11 /* tblVwCell.h */,
+				A71316CF27880E1900274A11 /* tblVwCell.m */,
+				A71316D027880E1900274A11 /* tblVwCell.xib */,
+				A71316D627880E4E00274A11 /* CollectionViewCell.h */,
+				A71316D727880E4E00274A11 /* CollectionViewCell.m */,
+				A71316D827880E4E00274A11 /* CollectionViewCell.xib */,
 			);
 			path = collectionViewTasks;
 			sourceTree = "<group>";
@@ -240,8 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A71316922786DE5D00274A11 /* LaunchScreen.storyboard in Resources */,
+				A71316D227880E1900274A11 /* tblVwCell.xib in Resources */,
 				A713168F2786DE5D00274A11 /* Assets.xcassets in Resources */,
 				A713168D2786DE5900274A11 /* Main.storyboard in Resources */,
+				A71316DA27880E4E00274A11 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A713168A2786DE5900274A11 /* ViewController.m in Sources */,
+				A71316D127880E1900274A11 /* tblVwCell.m in Sources */,
 				A71316842786DE5900274A11 /* AppDelegate.m in Sources */,
 				A71316952786DE5D00274A11 /* main.m in Sources */,
+				A71316BA2786DF4000274A11 /* tableVC.m in Sources */,
 				A71316872786DE5900274A11 /* SceneDelegate.m in Sources */,
+				A71316D927880E4E00274A11 /* CollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
